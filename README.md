@@ -12,8 +12,9 @@ A Pomodoro-based study timer built on an Arduino Uno with a 16x2 LCD display. Fe
 | 16x2 LCD Display | 1 |
 | Buzzer | 1 |
 | Push Buttons | 3 |
-| Jumper Wires | — |
+| Jumper Wires | 26 |
 | Breadboard | 1 |
+| Potentiometer | 1 |
 
 ---
 
