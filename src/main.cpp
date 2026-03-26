@@ -124,12 +124,12 @@ void timer() {
   lcd.clear();
   lcd.print(messages[0]);
 
-  minutes = 1;
+  minutes = 25;
   seconds = 0;
 
   int msgIndex = 0;
   unsigned long lastMsgSwitch = millis();
-  const unsigned long msgDuration = 10000;
+  const unsigned long msgDuration = 60000;
   
   while (minutes != 0 || seconds != 0) {
     if (millis() - lastMsgSwitch >= msgDuration) {
@@ -173,7 +173,7 @@ void timer() {
   }
   delay(2000);
 
-  rest = 1;
+  rest = 5;
   seconds = 0;
   
   lcd.clear();
