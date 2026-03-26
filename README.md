@@ -4,6 +4,10 @@ A Pomodoro-based study timer built on an Arduino Uno with a 16x2 LCD display. Fe
 
 ---
 
+![Main Menu](images/main_menu.jpeg)
+![Timer](images/timer.jpeg)
+![Session Summary](images/summary.jpeg)
+
 ## Hardware Required
 
 | Component | Quantity |
